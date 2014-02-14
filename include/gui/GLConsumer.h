@@ -377,8 +377,9 @@ private:
 protected:
     uint32_t mTexTarget;
 private:
-#endif
+#else
     const uint32_t mTexTarget;
+#endif
 
     // EGLSlot contains the information and object references that
     // GLConsumer maintains about a BufferQueue buffer slot.
